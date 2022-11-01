@@ -1,0 +1,88 @@
+
+
+
+
+1- What would output the console?
+
+class Super {
+    public int index = 1;
+}
+
+class App extends Super {
+
+    public App(int index) {
+        index = index;
+    }
+
+    public static void main(String args[]) {
+        App myApp = new App(10);
+        System.out.println(myApp.index);
+    }
+}
+
+Antwort = 1;
+
+
+
+
+2- What would output the console?
+
+
+class TestApp {
+    protected int x, y;
+}
+
+class Main {
+    public static void main(String args[]) {
+        TestApp app = new TestApp();
+        System.out.println(app.x + " " + app.y);
+    }
+}
+
+Antwort = 0 0;
+
+3- What would output the console?
+
+public class Test {
+
+    public static void main(String[] args) {
+        int[] table = { 5, 4, 3, 2, 1 };
+        table[1] = table[0]/table[1];
+        System.out.println(table[1]);
+    }
+}
+
+Antwort: 1
+
+
+ Richtig oder falsh
+
+class TestApp {
+    public static void main(String[] args) {
+        for (int index = 0; 1; index++) {
+            System.out.println("Welcome");
+            break;
+        }
+    }
+}
+
+Antwort: falsh
+
+
+one more Richtig oder falsh
+
+class TestApp {
+
+    public static void main() {
+        int odd = 1;
+        if (odd) {
+            System.out.println("odd");
+        } else {
+            System.out.println("even");
+        }
+    }
+}
+
+Antwort: falsh
+
+

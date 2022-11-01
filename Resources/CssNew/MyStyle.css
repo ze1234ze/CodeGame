@@ -1,0 +1,9 @@
+.background{
+    -fx-background-color: #de2b2b;
+}
+.menu-bar {
+    -fx-font-size: 16px;
+    -fx-font-family: Castellar;
+    /*-fx-background-color: #ffffff;*/
+}
+
