@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@/CodeGame/CSS/MyStyle.css" fx:controller="CodeGame.Controller.GameViewEndController">
+    <children>
+        <Button fx:id="scoresButtonEnd" layoutX="287.0" layoutY="568.0" mnemonicParsing="false" onAction="#scoresButtonEndOnClick" prefHeight="39.0" prefWidth="179.0" text="Scores">
+            <font>
+                <Font name="Noto Mono" size="18.0" />
+            </font></Button>
+        <TextField fx:id="resultTextField" layoutX="432.0" layoutY="396.0" prefHeight="31.0" prefWidth="37.0" />
+        <Label layoutX="278.0" layoutY="400.0" text="Your score:">
+            <font>
+                <Font name="Castellar" size="18.0" />
+            </font></Label>
+      <Label layoutX="200.0" layoutY="198.0" text="The End">
+         <font>
+            <Font name="Castellar" size="72.0" />
+         </font>
+      </Label>
+      <Button fx:id="letsPlayAgain" layoutX="287.0" layoutY="492.0" mnemonicParsing="false" onAction="#letsPlayAgainOnClick" prefHeight="39.0" prefWidth="179.0" text="One more game">
+         <font>
+            <Font name="Noto Mono" size="18.0" />
+         </font>
+      </Button>
+    </children>
+
+
+</AnchorPane>

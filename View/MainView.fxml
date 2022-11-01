@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<!-- stylesheets="@/CodeGame/CSS/MyStyle.css"-->
+
+<BorderPane fx:id="parent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" stylesheets="@/CodeGame/CSS/MyStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CodeGame.Controller.MainViewController">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu fx:id="menuButton" mnemonicParsing="false" text="Menu">
+                    <items>
+                  <MenuItem fx:id="backToStart" mnemonicParsing="false" onAction="#backToStartOnClick" text="Start" />
+                        <MenuItem fx:id="darkMode" mnemonicParsing="false" onAction="#darkModeOnClick" text="Dark Mode" />
+                  <MenuItem fx:id="exit" mnemonicParsing="false" onAction="#exitOnClick" text="Exit" />
+                    </items>
+                </Menu>
+                <Menu fx:id="scoresButton" mnemonicParsing="false" text="Scores">
+                    <items>
+                        <MenuItem fx:id="showAllScores" mnemonicParsing="false" onAction="#showAllScoresOnClick" text="Best scores" />
+                    </items>
+                </Menu>
+                <Menu fx:id="contactButton" mnemonicParsing="false" text="Contact">
+                    <items>
+                        <MenuItem fx:id="jobs" mnemonicParsing="false" onAction="#jobsOnClick" text="Jobs" />
+                  <MenuItem fx:id="aboutUs" mnemonicParsing="false" onAction="#aboutUsOnClick" text="About us" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+</BorderPane>
