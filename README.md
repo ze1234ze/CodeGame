@@ -1,2 +1,2 @@
 # CodeGame
-Quiz game. Please import SQL databank first.
+Quiz game. Please import SQL databank and path to the Resources.
